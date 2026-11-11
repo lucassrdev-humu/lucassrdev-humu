@@ -1,0 +1,94 @@
+{
+  "login": "lucassrdev-humu",
+  "accents": ["teal", "sapphire", "blue"],
+  "hero": {
+    "name": "Lucas Sousa Rosa",
+    "role": "Engenheiro de software · Humu",
+    "eyebrow": "curitiba, pr · utc−3",
+    "tagline": [
+      "Crédito digital, banking e design system:",
+      "interface em React, API em Laravel, testes no pipeline."
+    ],
+    "pills": ["react", "typescript", "laravel", "playwright"],
+    "terminalTitle": "fish — ~/work",
+    "terminal": [
+      { "cmd": "whoami" },
+      { "out": [["lucas", "accent"], [" · engenheiro de software @ humu", "text"]] },
+      { "cmd": "ls ~/work" },
+      { "out": [["credito/", "accent2"], ["  ", "text"], ["portal-cliente/", "accent2"], ["  ", "text"], ["design-system/", "accent2"]] },
+      { "cmd": "cat fluxo.txt" },
+      { "out": [["feat", "accent"], [" → ", "muted"], ["staging", "text"], [" → ", "muted"], ["homologação", "text"], [" → ", "muted"], ["produção", "green"]] },
+      { "out": [["✓ ", "green"], ["lint · typecheck · vitest · playwright", "text"]] }
+    ]
+  },
+  "projects": [
+    {
+      "id": "credito",
+      "wide": true,
+      "title": "Plataforma de crédito",
+      "monogram": "CR",
+      "kicker": "painel administrativo + api · repositório privado",
+      "accent": 0,
+      "description": "Painel e API de uma plataforma de crédito digital: simulação, análise, formalização com assinatura eletrônica, acompanhamento de parcelas e relatórios regulatórios.",
+      "tags": ["react", "typescript", "vite", "laravel", "postgresql", "playwright"]
+    },
+    {
+      "id": "portal",
+      "title": "Portal do cliente",
+      "monogram": "PC",
+      "kicker": "repositório privado",
+      "accent": 1,
+      "description": "Área do cliente para contratar e acompanhar crédito, com tema próprio e foco em clareza de informação.",
+      "tags": ["react", "typescript", "tailwind", "vitest"]
+    },
+    {
+      "id": "design-system",
+      "title": "Design system",
+      "monogram": "DS",
+      "kicker": "repositório privado",
+      "accent": 2,
+      "description": "Biblioteca de componentes compartilhada entre os produtos, com tokens claro e escuro, acessibilidade e contraste revisados.",
+      "tags": ["react", "radix", "storybook", "turborepo"]
+    }
+  ],
+  "stack": [
+    {
+      "label": "Frontend",
+      "items": [
+        { "name": "React", "icon": "react" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "Vite", "icon": "vite" },
+        { "name": "Tailwind", "icon": "tailwindcss" },
+        { "name": "Radix UI", "icon": "radixui" },
+        { "name": "Framer Motion", "icon": "framer" },
+        { "name": "Next.js", "icon": "nextdotjs" }
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        { "name": "Laravel", "icon": "laravel" },
+        { "name": "PHP", "icon": "php" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "Docker", "icon": "docker" }
+      ]
+    },
+    {
+      "label": "Qualidade",
+      "items": [
+        { "name": "Playwright" },
+        { "name": "Vitest", "icon": "vitest" },
+        { "name": "Storybook", "icon": "storybook" },
+        { "name": "GitHub Actions", "icon": "githubactions" }
+      ]
+    },
+    {
+      "label": "Design",
+      "items": [
+        { "name": "Figma", "icon": "figma" },
+        { "name": "Design tokens" },
+        { "name": "Turborepo", "icon": "turborepo" }
+      ]
+    }
+  ]
+}
