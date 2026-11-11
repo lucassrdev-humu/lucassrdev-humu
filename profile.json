@@ -3,17 +3,17 @@
   "accents": ["teal", "sapphire", "blue"],
   "hero": {
     "name": "Lucas Sousa Rosa",
-    "role": "Engenheiro de software · Humu",
+    "role": "Desenvolvedor front-end · Humu",
     "eyebrow": "curitiba, pr · utc−3",
     "tagline": [
-      "Crédito digital, banking e design system:",
-      "interface em React, API em Laravel, testes no pipeline."
+      "Crédito digital, banking e design system,",
+      "do componente React à rota Laravel."
     ],
     "pills": ["react", "typescript", "laravel", "playwright"],
     "terminalTitle": "fish — ~/work",
     "terminal": [
       { "cmd": "whoami" },
-      { "out": [["lucas", "accent"], [" · engenheiro de software @ humu", "text"]] },
+      { "out": [["lucas", "accent"], [" · dev front-end @ humu · também no back-end", "text"]] },
       { "cmd": "ls ~/work" },
       { "out": [["credito/", "accent2"], ["  ", "text"], ["portal-cliente/", "accent2"], ["  ", "text"], ["design-system/", "accent2"]] },
       { "cmd": "cat fluxo.txt" },
@@ -29,7 +29,7 @@
       "monogram": "CR",
       "kicker": "painel administrativo + api · repositório privado",
       "accent": 0,
-      "description": "Painel e API de uma plataforma de crédito digital: simulação, análise, formalização com assinatura eletrônica, acompanhamento de parcelas e relatórios regulatórios.",
+      "description": "Painel e API de uma plataforma de crédito digital: simulação, análise em etapas, formalização com assinatura eletrônica, parcelas e o módulo de relatórios regulatórios ao Banco Central (CADOC).",
       "tags": ["react", "typescript", "vite", "laravel", "postgresql", "playwright"]
     },
     {
@@ -47,7 +47,7 @@
       "monogram": "DS",
       "kicker": "repositório privado",
       "accent": 2,
-      "description": "Biblioteca de componentes compartilhada entre os produtos, com tokens claro e escuro, acessibilidade e contraste revisados.",
+      "description": "Pacote de componentes compartilhado entre os produtos: fiel ao Figma, com tokens claro e escuro, acessibilidade e versionamento por changesets.",
       "tags": ["react", "radix", "storybook", "turborepo"]
     }
   ],

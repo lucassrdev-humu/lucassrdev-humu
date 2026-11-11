@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucassrdev-humu/lucassrdev-humu/output/hero-dark.svg">
-  <img alt="Lucas Sousa Rosa — engenheiro de software na Humu" src="https://raw.githubusercontent.com/lucassrdev-humu/lucassrdev-humu/output/hero-light.svg" width="100%">
+  <img alt="Lucas Sousa Rosa — desenvolvedor front-end na Humu" src="https://raw.githubusercontent.com/lucassrdev-humu/lucassrdev-humu/output/hero-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -11,8 +11,9 @@
 
 ### Sobre
 
-- Engenheiro de software na **Humu**, em produtos de **crédito digital e banking**.
-- No dia a dia: interface em React e TypeScript, API em Laravel, componentes do design system e testes E2E com Playwright.
+- Desenvolvedor front-end na **Humu** desde maio de 2026, em produtos de **crédito digital e banking**, com atuação também no back-end.
+- Front: painel administrativo, portal do cliente e componentes do design system em React e TypeScript.
+- Back: API de crédito em Laravel (controle de acesso, cálculos no servidor, integrações) e API de assinaturas eletrônicas.
 - Entrega em PRs pequenas, com homologação em staging antes de chegar na branch principal.
 
 ### Atividade
